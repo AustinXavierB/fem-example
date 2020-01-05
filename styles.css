@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.calc {
+  height: 100%;
+  width: 400px;
+  color: white;
+  background-color: black;
+}
+
+.screen {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  text-align: right;
+  padding: 20px 5px;
+}
+
+.button-row {
+  display: flex;
+}
+
+.button {
+  background-color: #D8D9DB;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px; 
+  padding: 20px;
+  font-size: 40px;
+}
+
+.button:hover {
+  background-color: #EBEBEB;
+}
+
+.button:active {
+  background-color: #BBBCBE;
+}
+
+.half {
+  width: 50%;
+}
+
+.fourth {
+  width: 25%;
+}
+
+.three-quarters {
+  width: 75%;
+}
+
+.last-child {
+  color: white;
+  background-color: #DF974C;
+}
+
+.last-child:hover {
+  background-color: #DFB07E;
+}
+
+.last-child:active {
+  background-color: #DD8D37;
+}
